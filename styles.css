@@ -1,0 +1,267 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+
+body {
+    font-size: 16px;
+
+}
+
+
+.container1 {
+    background-color: #151515;
+    color: white;
+}
+
+.xl-heading {
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+
+/* Navigation Section */
+
+.header{
+    height: 5rem;
+    padding-top: 20px;
+}
+
+/* Main Section */
+
+
+.main-div {
+    position: relative;
+}
+
+.main-text {
+    padding: 120px 0;
+}
+
+.main-text h1 span {
+    text-decoration: 7px underline #4EE1A0;
+}
+
+.main-text p {
+    padding-right: 350px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main-text button {
+    margin-top: 60px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #4EE1A0;
+    padding-bottom: 6px;
+}
+
+.main-text button:hover {
+    color: #4EE1A0;
+}
+
+.main-section .row {
+    background-image: url("svg/image-profile-desktop.webp");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+}
+
+
+
+.main-section svg {
+    position: absolute;
+    bottom: 4rem;
+    right: 21rem;
+}
+
+.main-section img {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+}
+
+/* Second Section */
+
+.sec-section {
+    margin: 100px 0;
+    border-top: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.sec-section .row {
+    margin-top: 50px;
+}
+
+.sec-section img {
+    position: absolute;
+    right: 0%;
+    top: 75%;
+}
+
+/* Third Section */
+
+.third-main {
+    margin: 100px 0;
+}
+
+.third-section {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-section h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+.third-section button {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    text-decoration: 3px underline #4EE1A0;
+}
+
+.third-section button:hover {
+    color: #4EE1A0;
+}
+
+.images-section .row {
+    padding: 40px 0;
+}
+
+.images-section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.images-section span {
+    color: #d9d9d9;
+}
+
+.span-margin {
+    margin-left: 16px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+    background-color: #242424;
+}
+
+.text-4th {
+    padding-top: 100px;
+}
+
+.text-4th p {
+    color: #d9d9d9;
+    padding-right: 122px;
+}
+
+.text-forth img {
+    position: absolute;
+    rotate: 180;
+    bottom: 4rem;
+    right: 2rem;
+}
+
+form {
+    text-align: right;
+    padding: 70px 0;
+}
+
+form .fields {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    background-color: transparent;
+}
+
+form .submit {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #4EE1A0;
+    padding-bottom: 4px;
+    font-weight: 700;
+}
+
+form .submit:hover {
+    color: #4EE1A0;
+}
+
+/* Footer Section */
+
+.ftr {
+    background-color: #242424;
+    height: 150px;
+}
+
+.footer-div {
+    padding-top: 40px;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-top: 2px solid #d9d9d9;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .sec-section .row {
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .main-text p {
+        padding-right: 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .xl-heading {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -2.5px;
+        text-align: center;
+    }
+
+    .third-section h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -2.5px;
+        text-align: center;
+    }
+
+    .main-div button {
+        margin: auto;
+        align-items: center;
+    }
+
+    .text-4th p {
+        color: #d9d9d9;
+        padding-right: 0;
+    }
+
+    
+}
